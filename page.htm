@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique Maillots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #4746a7;
+    }
+    header {
+      background-image: url(joyex.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 10px;
+      display: flex;
+      gap: 20px;
+    }
+    .products {
+      flex: 2;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .carde {
+      background: white;
+      border-radius: 0px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .carde:hover {
+      transform: scale(1.09);
+    }
+    .carde img {
+      width: 90%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 90%;
+      height: 260px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+    .card p {
+      color: #555;
+      font-size: 14px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px 0 15px;
+      padding: 10px 15px;
+      background: #16a34a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #15803d;
+    }
+    
+    .cart {
+      flex: 1;
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .cart h2 {
+      margin-top: 0;
+    }
+    .cart ul {
+      list-style: none;
+      padding: 0;
+    }
+    .cart li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 8px 0;
+    }
+    .cart-total {
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: right;
+    }
+    .btn-clear {
+      background: #dc2626;
+      margin-top: 10px;
+    }
+    .btn-clear:hover {
+      background: #b91c1c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="font-family:'Courier New';color: whitesmoke; font-size: 300%;"> Boutique de Maillots</h1>
+    <p style="font-size: 160%;">Les meilleurs maillots de football au meilleur prix</p>
+  </header>
+
+  <div class="carde">
+    <img src="img_1756309297068.jpg" alt="Maillot PSG">
+  </div>
+
+    <div class="products">
+        
+    
+      <div class="card">
+        <img src="514C1BB6-B6D4-4482-9258-AB76C0B68F71.jpg" alt="Maillot PSG">
+        <p>Maillot non imprimer et pas de symobole de la LDC</p>
+        <h3>Prix:6500 Fcfa</h3>
+        
+      </div>
+
+      <div class="card">
+        <img src="IMG-20250826-WA0002.jpg" width="100px" alt="Maillot Real Madrid" >
+        <p> Maillot non imprimer avec le symobole de la LDC</p>
+        <h3>Prix:7500 Fcfa</h3>
+        
+      </div>
+
+      <div class="card">
+        <img src="IMG-20240626-WA0008.jpg" alt="Maillot FC Barcelone">
+        <p>Maillot imprimer avec votre propre nom ou le nom d'un joueur et pas de symobole de la LDC</p>
+        <h3>Prix:8000 Fcfa</h3>
+       
+      </div>
+
+      <div class="card">
+        <img src="IMG-20250826-WA0006.jpg" alt="Maillot Manchester City">
+        <P> Maillot imprimer avec votre propre nom ou le nom d'un joueur avec le symobole de la LDC</P>
+        <h3>Prix:9000 Fcfa</h3>
+
+      </div>
+      <div class="ca">
+        <p style="font-size: 150%;color: white;">Veillez nous contacter au: </p><br>
+        <H2 style="color: white;"><img src="icons8_phone_48px.png" alt="">69952644/96138291</H2>
+        <a href=""><img src="icons8_whatsapp_48px_1.png" alt="" ><H style="color: white;">+237 6 96 95 29 00</H></a><br><br>
+        <a href="https://www.facebook.com/profile.php?id=100086601064697&mibextid=rS40aB7S9Ucbxw6v"><img src="icons8_facebook_48px.png" alt=""><H style="color: white;">TELKA YABO</H></a><br><br>
+        <P style="color: white;"> <img src="icons8_location_48px.png" alt="">TCHAD/N'Djamena-Moundou</P>
+      </div>
+
+    </div>
+
+    
+</body>
+</html>
